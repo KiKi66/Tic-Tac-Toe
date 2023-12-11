@@ -16,15 +16,16 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 1px;
+    align-items: center;
 }
+
 
 .square {
     width: 100px;
     height: 100px;
-    outline: 1px solid black;
+    border: 1px solid black;
     font-size: 90px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
